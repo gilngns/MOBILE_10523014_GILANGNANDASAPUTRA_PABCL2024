@@ -1,0 +1,40 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="SplashScreenTheme" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="MainScreen" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="android:windowFullscreen">true</item>
+    </style><style name="MassaScreen" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="SuhuScreen" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="EnergiScreen" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="PanjangScreen" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="DataScreen" parent="Theme.Material3.DayNight.NoActionBar">
+    <!-- Customize your light theme here. -->
+    <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="JarakScreen" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="android:windowFullscreen">true</item>
+    </style>
+    <style name="KalScreen" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="android:windowFullscreen">true</item>
+    </style>
+
+    <style name="Theme.Konversi" parent="Base.Theme.Konversi" />
+</resources>

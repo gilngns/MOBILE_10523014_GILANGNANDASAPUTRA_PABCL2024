@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Energi"
+    android:orientation="vertical"
+    android:layout_gravity="center"
+    android:gravity="center"
+    android:background="@color/putih">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="K O N V E R S I"
+        android:textSize="40dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:layout_marginBottom="16dp"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:textColor="@color/hitam">
+    </TextView>
+
+    <TextView
+        android:textColor="@color/hitam"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Input Nilai Untuk Mengetahui Hasil Jarak"
+        android:textSize="25sp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"/>
+
+    <EditText
+        android:textColor="@color/hitam"
+        android:id="@+id/editTextJarak"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Input Kilometer"
+        android:textSize="50sp"
+        android:inputType="numberDecimal"/>
+
+    <TextView
+        android:textColor="@color/hitam"
+        android:id="@+id/textViewHasil"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:text="0.0 Kilometer = 0.0 Meter"/>
+</LinearLayout>
